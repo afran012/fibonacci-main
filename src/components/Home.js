@@ -8,15 +8,10 @@ import TimeNow from './timeNow'
 
 const Home = () => {
   const [serie, setSerie] = useState([])
-  useEffect(() => {
-    
-  
-    return () => {
-      
+  useEffect(() => {      
+    return () => {      
     }
   }, [serie])
-  
-
   
   return (
     <div className='home'>
