@@ -5,11 +5,11 @@ const Navbar = () => {
 
   return (
     <div>
-       <main>
-          <nav>
+      <main>
+        <nav>
           <h2>Prueba Protección Fibonacci</h2>
-          </nav>          
-       </main>
+        </nav>
+      </main>
     </div>
   )
 }

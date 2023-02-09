@@ -1,8 +1,5 @@
 import React from 'react'
-
-
 import { useEffect, useRef } from "react";
-// import "./styles.css";
 
 const TimeNow = () => {
   const h1 = useRef();
