@@ -7,7 +7,7 @@ import TimeNow from './timeNow'
 
 
 const Home = () => {
-  const [serie, setSerie] = useState()
+  const [serie, setSerie] = useState([])
   useEffect(() => {
     
   
@@ -28,8 +28,10 @@ const Home = () => {
         console.log(serie)
       }}>CalcularFibonacci</Button>
       <TimeNow></TimeNow>
-  
-      <div>{serie}</div>
+      
+      <div>{serie.map((n)=>{
+        return <div>{n}</div>     
+      })}</div>
 
     </div>
   )
